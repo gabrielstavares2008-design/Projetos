@@ -5,7 +5,6 @@
 
 
 #configuração/constante
-
 Valor_do_KWH=0.80 #Valor fixo em R$ do KWH
 
 #Entrada de dados 
