@@ -7,7 +7,7 @@
 # Constantes
 Valor_do_KWH=0.80 #Valor fixo em R$ do KWH
 
-#Entrda de dados 
+#Entrada de dados 
 nome_do_aparelho = input (" Digite o nome do seu aparelho:")
 potencia_watts = float (input ("Digite a potencia do aparelho em Watts:"))
 horas_de_uso = float (input ("Quantas horas ele fica ligado por dia ?"))
