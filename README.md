@@ -14,6 +14,8 @@ horas_de_uso = float (input ("Quantas horas ele fica ligado por dia ?"))
 #Processamento 
 consumoMensal = (potencia_watts * horas_de_uso * 30) / 1000
 custo_total = consumoMensal * Valor_do_KWH 
-#Saida de dados 
-
-print(f"O valor total em R$ do consumo de energia do aparelho é: R$ {custo_total:.2f}")
+#saida de dados
+print(f"\nAparelho: {nome_do_aparelho}")
+print(f"Consumo estimado: {consumoMensal:.1f} kWh/mês")
+print(
+    f"Custo mensal estimado: R$ {custo_total:.2f}"
